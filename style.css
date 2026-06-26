@@ -28,7 +28,7 @@ body {
 }
 
 .logo {
-    font-size: 4rem;
+    font-size: 5rem;
     letter-spacing: 3px;
     margin-bottom: 50px;
     font-family: 'Cinzel', serif;
@@ -88,30 +88,31 @@ body {
 
 .card-content {
     padding: 25px;
-}
-
-.card-content h3 {
-    margin-bottom: 5px;
-    font-size: 1.3rem;
-    text-align: center;
-    font-family: 'Abril+Fatface', serif;
-  /*  font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    line-height: 1.2;
-    transform: scaleY(1.15); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card-content h4 {
+    width: 100%;
     margin-bottom: 15px;
     font-size: 0.95rem;
     text-align: right;
 }
 
 .card-content p {
+    width: 100%;
     font-size: 0.95rem;
     color: var(--text-muted);
     margin-bottom: 25px;
+}
+
+.card-content h3 {
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Abril Fatface', serif;
+    width: 100%;
 }
 
 /* ─── CARROSSEL ─────────────────────────────────────────── */
@@ -119,25 +120,47 @@ body {
 .carousel {
     position: relative;
     width: 100%;
-    overflow: hidden;
-    /* Altura fixa igual ao .card img anterior */
     height: 300px;
     background-color: #111;
+    /*
+       overflow: hidden no próprio carousel (não no body/html)
+       é a forma correta de isolar o carrossel no Safari/iOS.
+       Aplicar overflow-x: hidden no body quebra o translateX
+       e faz as fotos 02 e 03 sumirem no iPhone.
+    */
+    overflow: hidden;
+    /*
+       Força o Safari a criar um contexto de renderização
+       próprio para este bloco, corrigindo o bug de imagens
+       que somem ao usar translateX dentro de overflow: hidden.
+    */
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
 }
 
 .carousel-track {
     display: flex;
     height: 100%;
-    /* A transição suave ao trocar de foto */
     transition: transform 0.4s ease;
+    /*
+       will-change avisa o browser antecipadamente que este
+       elemento vai ser transformado, melhorando performance
+       e evitando flickering no iOS.
+    */
+    will-change: transform;
 }
 
 .carousel-track img {
-    /* Cada imagem ocupa exatamente 100% da largura do carrossel */
     flex: 0 0 100%;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    /*
+       backface-visibility: hidden corrige um bug do Safari
+       onde imagens em flex fora da viewport ficam invisíveis.
+    */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 /* Setas de navegação */
@@ -154,7 +177,6 @@ body {
     font-size: 0.9rem;
     cursor: pointer;
     transition: background-color 0.3s, border-color 0.3s;
-    /* Esconde as setas por padrão; aparecem no hover do card */
     opacity: 0;
     z-index: 10;
 }
@@ -300,20 +322,80 @@ footer {
 
 /* ─── RESPONSIVIDADE ─────────────────────────────────────── */
 
-@media (max-width: 600px) {
-    .carousel-btn {
-        /* Em mobile as setas ficam sempre visíveis */
-        opacity: 1;
-        width: 30px;
-        height: 30px;
-        font-size: 0.75rem;
+/*
+   IMPORTANTE: overflow-x: hidden no body/html quebra o
+   translateX do carrossel no Safari/iOS. A solução correta
+   é controlar o overflow direto no .carousel (feito acima)
+   e reduzir letter-spacing nos títulos para evitar vazamento.
+*/
+
+/* Tablet e celulares (até 768px) */
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 40px 20px;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+        letter-spacing: 3px;
+        transform: none;
+    }
+
+    .tagline {
+        font-size: 0.95rem;
+    }
+
+    .section-title {
+        font-size: 1.3rem;
+        letter-spacing: 3px;
     }
 
     .catalogo {
-        padding: 60px 5%;
+        padding: 30px 4%;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .card-content h3 {
+        font-size: 1.1rem;
     }
 
     .processo {
-        padding: 60px 8%;
+        padding: 60px 6%;
+    }
+
+    .cta-final h2 {
+        font-size: 1.4rem;
+        letter-spacing: 3px;
+    }
+
+    /* Setas sempre visíveis no celular */
+    .carousel-btn {
+        opacity: 1;
+        width: 32px;
+        height: 32px;
+        font-size: 0.8rem;
+    }
+}
+
+/* Celulares pequenos (até 400px) */
+@media (max-width: 400px) {
+
+    .logo {
+        font-size: 1.8rem;
+        letter-spacing: 2px;
+    }
+
+    .section-title {
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+    }
+
+    .carousel {
+        height: 240px;
     }
 }
