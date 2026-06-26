@@ -24,18 +24,30 @@ body {
 
 .hero {
     text-align: center;
-    padding: 100px 20px 80px;
+    padding: 100px 20px 20px;
 }
 
 .logo {
     font-size: 3rem;
     letter-spacing: 3px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+
+     font-family: 'Cinzel', serif;
+    font-weight: 400; /* Define a espessura mais fina */
+    
+    text-transform: uppercase; /* Letras maiúsculas acentuam a altura */
+    letter-spacing: 6px;       /* Espaçamento largo compensa a largura */
+    line-height: 1.2;          /* Ajusta a altura da linha */
+    
+    /* Efeito opcional para esticar verticalmente */
+    transform: scaleY(1.15);   
+    display: inline-block; 
 }
 
 .tagline {
     max-width: 600px;
     margin: 0 auto;
+    margin-bottom: 30px;
     color: var(--text-muted);
     font-size: 1.1rem;
 }
@@ -46,7 +58,17 @@ body {
     text-align: center;
     font-size: 1.8rem;
     margin-bottom: 50px;
-    letter-spacing: 2px;
+  /*  letter-spacing: 2px; */
+
+    font-family: 'Cinzel', serif;
+    font-weight: 400; /* Define a espessura mais fina */
+    
+    text-transform: uppercase; /* Letras maiúsculas acentuam a altura */
+    letter-spacing: 6px;       /* Espaçamento largo compensa a largura */
+    line-height: 1.2;          /* Ajusta a altura da linha */
+    
+    /* Efeito opcional para esticar verticalmente */
+   /* transform: scaleY(1.15);   */
 }
 
 .catalogo {
@@ -86,6 +108,16 @@ body {
     margin-bottom: 5px;
     font-size: 1.2rem;
     text-align: center;
+
+    font-family: 'Cinzel', serif;
+    font-weight: 400; /* Define a espessura mais fina */
+    
+    text-transform: uppercase; /* Letras maiúsculas acentuam a altura */
+    letter-spacing: 6px;       /* Espaçamento largo compensa a largura */
+    line-height: 1.2;          /* Ajusta a altura da linha */
+    
+    /* Efeito opcional para esticar verticalmente */
+    transform: scaleY(1.15);   
 }
 
 .card-content h4 {
@@ -174,13 +206,23 @@ body {
 /* CTA FINAL */
 
 .cta-final {
-    padding: 100px 20px;
+    padding: 40px 20px;
     text-align: center;
 }
 
 .cta-final h2 {
     margin-bottom: 30px;
     font-size: 2rem;
+
+     font-family: 'Cinzel', serif;
+    font-weight: 400; /* Define a espessura mais fina */
+    
+    text-transform: uppercase; /* Letras maiúsculas acentuam a altura */
+    letter-spacing: 6px;       /* Espaçamento largo compensa a largura */
+    line-height: 1.2;          /* Ajusta a altura da linha */
+    
+    /* Efeito opcional para esticar verticalmente */
+   /* transform: scaleY(1.15);   */
 }
 
 /* FOOTER */
