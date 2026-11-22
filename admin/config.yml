@@ -62,6 +62,13 @@ collections:
         default: ""
         hint: "Preencha só se a peça estiver em promoção. Ex: 159,90"
 
+      - label: "Quantidade mínima (Atacado)"
+        name: "quantidade_minima"
+        widget: "string"
+        required: false
+        default: ""
+        hint: "Preencha apenas para peças de Atacado. Ex: A partir de 10 unidades"
+
       - label: "Fotos da peça"
         name: "fotos"
         widget: "list"

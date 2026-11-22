@@ -145,6 +145,10 @@ function renderCard(p) {
         blocoPreco = `<div class="card-preco"><span>${promo || preco}</span></div>`;
     }
 
+    const qtdMinima = p.quantidade_minima
+        ? `<div class="card-qtd-minima">${escapar(p.quantidade_minima)}</div>`
+        : '';
+
     const descricao = escapar(p.descricao || '').replace(/\n/g, '<br>');
 
     return `            <article class="card">
@@ -160,6 +164,7 @@ ${imagens}
                     <h3>${escapar(String(p.titulo).toLocaleUpperCase('pt-BR'))}</h3>
                     <h4>${escapar(p.tamanho || '')}</h4>
                     ${blocoPreco}
+                    ${qtdMinima}
                     <p>${descricao}</p>
                     <a href="${WA}Olá,%20gostaria%20de%20solicitar%20uma%20peça%20personalizada." target="_blank" class="btn-outline btn-whatsapp" rel="noopener">Solicitar peça personalizada</a>
                 </div>
