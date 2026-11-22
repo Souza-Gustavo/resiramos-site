@@ -1,0 +1,24 @@
+{
+  "titulo": "Mini Bandeja Quartzo Rose",
+  "categoria": "decoracao",
+  "tamanho": "Tam. 13 cm",
+  "descricao": "Uma composição delicada, os tons rosados, o acabamento translúcido e o brilho sutil das folhas de ouro criam uma peça que transmite leveza, feminilidade e sofisticação, resultando em uma composição harmoniosa e refinada.",
+  "preco": "60,00",
+  "preco_promocional": "",
+  "fotos": [
+    {
+      "imagem": "/img/Porta Copo Estrias Rosa 01.jpeg",
+      "descricao": "Mini Bandeja Quartzo Rose 13cm em resina rosa com folha de ouro - Resi Ramos"
+    },
+    {
+      "imagem": "/img/Porta Copo Estrias Rosa 02.jpeg",
+      "descricao": "Porta Copo Estrias Rosa - foto 2"
+    },
+    {
+      "imagem": "/img/Porta Copo Estrias Rosa 03.jpeg",
+      "descricao": "Porta Copo Estrias Rosa - foto 3"
+    }
+  ],
+  "visivel": true,
+  "ordem": 4
+}

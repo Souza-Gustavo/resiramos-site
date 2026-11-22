@@ -1,0 +1,24 @@
+{
+  "titulo": "Kit Bandeja Oval",
+  "categoria": "decoracao",
+  "tamanho": "Tam. 23 x 11 cm",
+  "descricao": "Criada para quem valoriza beleza nos detalhes. O tom de cinza combinado com as delicadas folhas de ouro traz leveza e sofisticação, tornando-a um complemento harmonioso para diferentes estilos de decoração.",
+  "preco": "300,00",
+  "preco_promocional": "",
+  "fotos": [
+    {
+      "imagem": "/img/Bandeja Oval 01.jpeg",
+      "descricao": "Kit Bandeja Oval 23x11cm em resina cinza com folha de ouro - Resi Ramos"
+    },
+    {
+      "imagem": "/img/Bandeja Oval 02.jpeg",
+      "descricao": "Kit Bandeja Oval - foto 2"
+    },
+    {
+      "imagem": "/img/Bandeja Oval 03.jpeg",
+      "descricao": "Kit Bandeja Oval - foto 3"
+    }
+  ],
+  "visivel": true,
+  "ordem": 3
+}

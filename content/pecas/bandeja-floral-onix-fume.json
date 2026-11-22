@@ -1,0 +1,24 @@
+{
+  "titulo": "Bandeja Floral Ônix Fumê",
+  "categoria": "decoracao",
+  "tamanho": "Tam. 18 cm",
+  "descricao": "Bandeja em resina translúcida, na tonalidade ônix fumê, com flores naturais preservadas em seu interior. Alças metálicas pretas que complementam o design contemporâneo. Perfeita para servir, decorar aparadores, mesas de centro ou até mesmo compor ambientes sofisticados.",
+  "preco": "300,00",
+  "preco_promocional": "",
+  "fotos": [
+    {
+      "imagem": "/img/Bandeja Floral 01.jpeg",
+      "descricao": "Bandeja Floral Ônix Fumê 18cm em resina translúcida com flores naturais - Resi Ramos"
+    },
+    {
+      "imagem": "/img/Bandeja Floral 02.jpeg",
+      "descricao": "Bandeja Floral Ônix Fumê - detalhe lateral"
+    },
+    {
+      "imagem": "/img/Bandeja Floral 03.jpeg",
+      "descricao": "Bandeja Floral Ônix Fumê decorando aparador"
+    }
+  ],
+  "visivel": true,
+  "ordem": 1
+}

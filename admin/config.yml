@@ -1,0 +1,94 @@
+backend:
+  name: github
+  repo: Souza-Gustavo/resiramos-site
+  branch: versao-2.0
+
+media_folder: "img"
+public_folder: "/img"
+locale: "pt"
+
+collections:
+  - name: "pecas"
+    label: "Peças"
+    label_singular: "Peça"
+    folder: "content/pecas"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: "json"
+    format: "json"
+    identifier_field: "titulo"
+    summary: "{{titulo}} ({{categoria}}) — R$ {{preco}}"
+    fields:
+      - label: "Título da peça"
+        name: "titulo"
+        widget: "string"
+        required: true
+        hint: "Ex: Bandeja Floral Ônix Fumê"
+
+      - label: "Categoria"
+        name: "categoria"
+        widget: "select"
+        options:
+          - { label: "Decoração", value: "decoracao" }
+          - { label: "Beleza", value: "beleza" }
+          - { label: "Jogos", value: "jogos" }
+          - { label: "Atacado", value: "atacado" }
+        required: true
+
+      - label: "Tamanho / Medidas"
+        name: "tamanho"
+        widget: "string"
+        required: false
+        default: ""
+        hint: "Ex: Tam. 18 cm"
+
+      - label: "Descrição"
+        name: "descricao"
+        widget: "text"
+        required: true
+
+      - label: "Preço normal"
+        name: "preco"
+        widget: "string"
+        required: false
+        default: ""
+        hint: "Digite apenas números e vírgula. Ex: 189,90"
+
+      - label: "Preço promocional (opcional)"
+        name: "preco_promocional"
+        widget: "string"
+        required: false
+        default: ""
+        hint: "Preencha só se a peça estiver em promoção. Ex: 159,90"
+
+      - label: "Fotos da peça"
+        name: "fotos"
+        widget: "list"
+        required: true
+        min: 1
+        label_singular: "Foto"
+        fields:
+          - label: "Imagem"
+            name: "imagem"
+            widget: "image"
+            required: true
+          - label: "Descrição da foto (ajuda no Google)"
+            name: "descricao"
+            widget: "string"
+            required: false
+            default: ""
+
+      - label: "Mostrar no site?"
+        name: "visivel"
+        widget: "boolean"
+        default: true
+        hint: "Desmarque para esconder a peça sem precisar apagar"
+
+      - label: "Ordem de exibição"
+        name: "ordem"
+        widget: "number"
+        value_type: "int"
+        min: 1
+        default: 99
+        hint: "Números menores aparecem primeiro (1, 2, 3...)"

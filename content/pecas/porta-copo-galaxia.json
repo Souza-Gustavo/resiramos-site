@@ -1,0 +1,24 @@
+{
+  "titulo": "Porta Copo Galáxia",
+  "categoria": "decoracao",
+  "tamanho": "Tam. 8,5 cm",
+  "descricao": "Remetendo à beleza e ao mistério da galáxia, este porta-copo, com tons de preto, cinza e toques transparentes, apresenta um design marcante. Contém pequenas folhas de ouro em toda a peça, inspiradas no universo estrelado.",
+  "preco": "35,00",
+  "preco_promocional": "",
+  "fotos": [
+    {
+      "imagem": "/img/Porta copo Galaxia 01.jpeg",
+      "descricao": "Porta Copo Galáxia 8,5cm em resina preta com folha de ouro - Resi Ramos"
+    },
+    {
+      "imagem": "/img/Porta copo Galaxia 02.jpeg",
+      "descricao": "Porta Copo Galáxia - foto 2"
+    },
+    {
+      "imagem": "/img/Porta copo Galaxia 03.jpeg",
+      "descricao": "Porta Copo Galáxia - foto 3"
+    }
+  ],
+  "visivel": true,
+  "ordem": 5
+}
