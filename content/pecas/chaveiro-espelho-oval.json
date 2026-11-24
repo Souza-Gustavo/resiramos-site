@@ -1,0 +1,21 @@
+{
+  "titulo": "Chaveiro espelho oval",
+  "categoria": "atacado",
+  "tamanho": "7cm x 5cm",
+  "descricao": "Chaveiro espelho oval feito à mão em resina epóxi. Além de ser um acessório super charmoso para dar um toque especial na sua bolsa, mochila ou chaves, ele é perfeito para retocar a maquiagem ou conferir o visual a qualquer hora do dia.",
+  "preco": "21,00",
+  "preco_promocional": "",
+  "quantidade_minima": "A partir de 15 unidades R$ 18,00",
+  "fotos": [
+    {
+      "imagem": "/img/90693042-adfc-4a28-9648-dbb2b96e8664.jpg",
+      "descricao": "Chaveiro espelho oval rosa"
+    },
+    {
+      "imagem": "/img/2767a347-f909-45ac-afc5-1550af340f73.jpg",
+      "descricao": "Chaveiro espelho oval rosa"
+    }
+  ],
+  "visivel": true,
+  "ordem": 1
+}
