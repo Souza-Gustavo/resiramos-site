@@ -30,7 +30,7 @@ const CATEGORIAS = [
         arquivo: 'beleza/beleza.html',
         vazio: {
             titulo: 'Coleção em preparação',
-            texto: 'Ainda não há peças publicadas nesta categoria. Para saber das novidades ou encomendar uma peça sob medida, fale com a Resi pelo WhatsApp.',
+            texto: 'Ainda não há peças publicadas nesta categoria. Para saber das novidades ou encomendar uma peça sob medida, fale com a ResiRamos pelo WhatsApp.',
             botao: 'Falar pelo WhatsApp',
             link: WA + 'Olá,%20gostaria%20de%20saber%20das%20novidades%20e%20encomendar%20uma%20peça.'
         }
@@ -40,7 +40,7 @@ const CATEGORIAS = [
         arquivo: 'decoracao/decoracao.html',
         vazio: {
             titulo: 'Coleção em preparação',
-            texto: 'Ainda não há peças publicadas nesta categoria. Para saber das novidades ou encomendar uma peça sob medida, fale com a Resi pelo WhatsApp.',
+            texto: 'Ainda não há peças publicadas nesta categoria. Para saber das novidades ou encomendar uma peça sob medida, fale com a ResiRamos pelo WhatsApp.',
             botao: 'Falar pelo WhatsApp',
             link: WA + 'Olá,%20gostaria%20de%20saber%20das%20novidades%20e%20encomendar%20uma%20peça.'
         }
@@ -50,7 +50,7 @@ const CATEGORIAS = [
         arquivo: 'jogos/jogos.html',
         vazio: {
             titulo: 'Coleção em preparação',
-            texto: 'Ainda não há peças publicadas nesta categoria. Para saber das novidades ou encomendar uma peça sob medida, fale com a Resi pelo WhatsApp.',
+            texto: 'Ainda não há peças publicadas nesta categoria. Para saber das novidades ou encomendar uma peça sob medida, fale com a ResiRamos pelo WhatsApp.',
             botao: 'Falar pelo WhatsApp',
             link: WA + 'Olá,%20gostaria%20de%20saber%20das%20novidades%20e%20encomendar%20uma%20peça.'
         }
@@ -61,7 +61,7 @@ const CATEGORIAS = [
         blocoSempre: true,
         vazio: {
             titulo: 'Para lojistas e revendedores',
-            texto: 'Cada peça é produzida à mão e sob encomenda. Para valores, prazos e quantidades, fale direto com a Resi pelo WhatsApp.',
+            texto: 'Cada peça é produzida à mão e sob encomenda. Para valores, prazos e quantidades, fale direto com a ResiRamos pelo WhatsApp.',
             botao: 'Solicitar condições de atacado',
             link: WA + 'Olá,%20gostaria%20de%20saber%20as%20condições%20para%20atacado.'
         }

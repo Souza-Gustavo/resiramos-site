@@ -31,7 +31,7 @@ collections:
         widget: "select"
         options:
           - { label: "Decoração", value: "decoracao" }
-          - { label: "Beleza", value: "beleza" }
+          - { label: "Uso Pessoal", value: "beleza" }
           - { label: "Jogos", value: "jogos" }
           - { label: "Atacado", value: "atacado" }
         required: true
