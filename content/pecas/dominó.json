@@ -1,0 +1,29 @@
+{
+  "titulo": "Dominó",
+  "categoria": "jogos",
+  "tamanho": "5cm x 2cm",
+  "descricao": "Leve sofisticação e exclusividade para as suas partidas com este Jogo de Dominó Artesanal em Resina Epóxi. Produzido peça por peça, combina brilho refinado, resistência e um visual único que se destaca na mesa ou na decoração.",
+  "preco": "299,90",
+  "preco_promocional": "",
+  "quantidade_minima": "",
+  "fotos": [
+    {
+      "imagem": "/img/feea63af-d19f-490f-8e5b-ac52520c2e7f.jpg",
+      "descricao": "Jogo de dominó estilo azul e branco"
+    },
+    {
+      "imagem": "/img/b57a0d5b-91a3-4e96-96c0-72f71a3aa24a.jpg",
+      "descricao": "Jogo de dominó estilo azul e branco"
+    },
+    {
+      "imagem": "/img/f0a59309-3fd2-4001-8617-9400d135c923.jpg",
+      "descricao": "Jogo de dominó decoração the sims"
+    },
+    {
+      "imagem": "/img/0a995870-d658-4635-b82b-34f1c622a6f6.jpg",
+      "descricao": "Jogo de dominó decoração the sims"
+    }
+  ],
+  "visivel": true,
+  "ordem": 2
+}
