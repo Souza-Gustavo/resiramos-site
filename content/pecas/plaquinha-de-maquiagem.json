@@ -1,0 +1,29 @@
+{
+  "titulo": "Plaquinha de Maquiagem",
+  "categoria": "beleza",
+  "tamanho": "12cm x 7,5cm",
+  "descricao": "Leve mais praticidade, higiene e estilo para sua bancada ou atendimento. Nossa plaquinha em resina é feita à mão, ideal para misturar bases, corretivos, batons e pigmentos cremosos até alcançar o tom exato da pele, além de funcionar como base para fotos de maquiagem e unhas",
+  "preco": "60,00",
+  "preco_promocional": "",
+  "quantidade_minima": "",
+  "fotos": [
+    {
+      "imagem": "/img/803986c0-31f4-4556-a031-1ff43b15aeba.jpg",
+      "descricao": "Plaquinha de maquiagem branco perolado com dourado"
+    },
+    {
+      "imagem": "/img/e071e36c-c493-47b2-a243-44d4c6117f72.jpg",
+      "descricao": "Plaquinha de maquiagem nude com dourado"
+    },
+    {
+      "imagem": "/img/88debd4c-5409-4367-8553-8782ddd88d05.jpg",
+      "descricao": "Plaquinha de maquiagem Branca FR"
+    },
+    {
+      "imagem": "/img/37c1f5be-040c-479b-9b0f-c58052319ca4.jpg",
+      "descricao": "Plaquinha de maquiagem efeito oceano com dourado"
+    }
+  ],
+  "visivel": true,
+  "ordem": 4
+}
