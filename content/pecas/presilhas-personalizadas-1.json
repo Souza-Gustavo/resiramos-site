@@ -1,0 +1,25 @@
+{
+  "titulo": "Presilhas Personalizadas",
+  "categoria": "beleza",
+  "tamanho": "4cm x 1,5cm",
+  "descricao": "Destaque seus penteados com uma presilha feita à mão em resina com brilho intenso e acabamento exclusivo. Cada peça é produzida sob encomenda de acordo com a sua escolha — com nome, inicial, cor personalizada, glitter, folhas metalizadas.",
+  "preco": "12,00",
+  "preco_promocional": "",
+  "quantidade_minima": "",
+  "fotos": [
+    {
+      "imagem": "/img/presilhas-pretas.jpeg",
+      "descricao": "Presilhas de cabelo preta com logo dourada"
+    },
+    {
+      "imagem": "/img/presilhas-rosas.jpeg",
+      "descricao": "Presilhas de cabelo rosa com logo dourada"
+    },
+    {
+      "imagem": "/img/presilhas-brancas.jpeg",
+      "descricao": "Presilhas de cabelo brancas com logo dourada"
+    }
+  ],
+  "visivel": true,
+  "ordem": 1
+}
