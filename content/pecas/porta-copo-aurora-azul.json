@@ -1,0 +1,24 @@
+{
+  "titulo": "Porta-Copo Aurora Azul",
+  "categoria": "decoracao",
+  "tamanho": "Tam. 8,5 cm",
+  "descricao": "Inspirado nas formas orgânicas das geodas naturais. Tons de azul se mesclam com o efeito translúcido, criando movimento e profundidade na peça. Detalhes com folhas de ouro no centro para trazer um toque de brilho e sofisticação.",
+  "preco": "35,00",
+  "preco_promocional": "",
+  "fotos": [
+    {
+      "imagem": "/img/Porta copo aurora azul 01.jpeg",
+      "descricao": "Porta-Copo Aurora Azul 8,5cm inspirado em geoda - Resi Ramos"
+    },
+    {
+      "imagem": "/img/Porta copo aurora azul 02.jpeg",
+      "descricao": "Porta Copo Aurora Azul - foto 2"
+    },
+    {
+      "imagem": "/img/Porta copo aurora azul 03.jpeg",
+      "descricao": "Porta Copo Aurora Azul - foto 3"
+    }
+  ],
+  "visivel": true,
+  "ordem": 6
+}

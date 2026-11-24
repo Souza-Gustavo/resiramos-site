@@ -1,0 +1,24 @@
+{
+  "titulo": "Porta Copo Costela de Adão",
+  "categoria": "decoracao",
+  "tamanho": "Tam. 12 x 8,5 cm",
+  "descricao": "Peça que combina elementos da natureza com sofisticação. Os veios fluidos criam um desenho único e exclusivo. Detalhes em folha de ouro e a lateral dourada acrescentam luminosidade à peça e valorizam a decoração com elegância.",
+  "preco": "30,00",
+  "preco_promocional": "",
+  "fotos": [
+    {
+      "imagem": "/img/Porta Copo Folha Verde 01.jpeg",
+      "descricao": "Porta Copo Costela de Adão 12x8,5cm com folha de ouro - Resi Ramos"
+    },
+    {
+      "imagem": "/img/Porta Copo Folha Verde 02.jpeg",
+      "descricao": "Porta Copo Folha Verde - foto 2"
+    },
+    {
+      "imagem": "/img/Porta Copo Folha Verde 03.jpeg",
+      "descricao": "Porta Copo Folha Verde - foto 3"
+    }
+  ],
+  "visivel": true,
+  "ordem": 7
+}

@@ -1,0 +1,24 @@
+{
+  "titulo": "Bandeja Decorativa Neblina Prateada",
+  "categoria": "decoracao",
+  "tamanho": "Tam. 35 cm",
+  "descricao": "Bandeja em resina sobre base de MDF, com composição abstrata inspirada nos veios do mármore natural. Alças metálicas cromadas que adicionam ainda mais beleza à peça. Indicada para compor ambientes.",
+  "preco": "200,00",
+  "preco_promocional": "",
+  "fotos": [
+    {
+      "imagem": "/img/Bandeja Decorativa Neblina Prateada 01.jpeg",
+      "descricao": "Bandeja Decorativa Neblina Prateada 35cm em resina efeito mármore - Resi Ramos"
+    },
+    {
+      "imagem": "/img/Bandeja Decorativa Neblina Prateada 02.jpeg",
+      "descricao": "Bandeja Decorativa Neblina Prateada - foto 2"
+    },
+    {
+      "imagem": "/img/Bandeja Decorativa Neblina Prateada 03.jpeg",
+      "descricao": "Bandeja Decorativa Neblina Prateada - foto 3"
+    }
+  ],
+  "visivel": true,
+  "ordem": 2
+}

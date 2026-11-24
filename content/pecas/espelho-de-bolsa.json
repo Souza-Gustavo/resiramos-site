@@ -1,0 +1,29 @@
+{
+  "titulo": "Espelho de bolsa",
+  "categoria": "beleza",
+  "tamanho": "7,5cm x 5cm",
+  "descricao": "Mini espelho de bolsa feito à mão em resina, compacto e leve para retoques rápidos no dia a dia. Com acabamento brilhante e opção de personalização com nome, inicial ou cores, é prático para levar na bolsa ou presentear.",
+  "preco": "45,00",
+  "preco_promocional": "",
+  "quantidade_minima": "",
+  "fotos": [
+    {
+      "imagem": "/img/a7bd985b-1363-4fbc-9dd4-fb1ae650f99b.jpg",
+      "descricao": "Mini espelho de bolsa com flores"
+    },
+    {
+      "imagem": "/img/352ba3a5-15f9-4b08-8581-fe98b82ff68c.jpg",
+      "descricao": "Mini espelho de bolsa com flores frente"
+    },
+    {
+      "imagem": "/img/db59b29e-b52b-4e89-9dcc-bc934b4fc6f9.jpg",
+      "descricao": "Mini espelho de bolsa azul"
+    },
+    {
+      "imagem": "/img/cda6c0dd-beae-4197-844e-3381b2f86b14.jpg",
+      "descricao": "Mini espelho de bolsa lilás com logo em preto"
+    }
+  ],
+  "visivel": true,
+  "ordem": 5
+}

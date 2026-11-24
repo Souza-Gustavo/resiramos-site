@@ -1,0 +1,29 @@
+{
+  "titulo": "Espelho de Mao G",
+  "categoria": "beleza",
+  "tamanho": "33cm x 15cm",
+  "descricao": "Espelho de mão de tamanho grande produzido artesanalmente em resina, com acabamento brilhante e visual sofisticado. Ideal para maquiagem, cuidados pessoais, estúdios de beleza, salões ou para presentear.",
+  "preco": "200,00",
+  "preco_promocional": "",
+  "quantidade_minima": "",
+  "fotos": [
+    {
+      "imagem": "/img/45103ce8-f6dd-4d14-af00-c20ab9659616.jpg",
+      "descricao": "Espelhos de Mão Grande - Marrom e Branco"
+    },
+    {
+      "imagem": "/img/fb6a4e8f-d630-4715-8a9b-926a635dcfb7.jpg",
+      "descricao": "Espelho de Mão Grande - Branco com dourado"
+    },
+    {
+      "imagem": "/img/71517bb1-5689-4145-96c7-af4d330e5398.jpg",
+      "descricao": "Espelho de Mão Grande Frente"
+    },
+    {
+      "imagem": "/img/WhatsApp Image 2026-11-23 at 21.29.59.jpeg",
+      "descricao": "Espelho de Mão Grande Branco FR"
+    }
+  ],
+  "visivel": true,
+  "ordem": 2
+}

@@ -1,0 +1,29 @@
+{
+  "titulo": "Espelho de mão M",
+  "categoria": "beleza",
+  "tamanho": "24cm x 12cm",
+  "descricao": "Espelho de mão de tamanho médio produzido artesanalmente em resina, com acabamento brilhante e visual sofisticado. Ideal para maquiagem, cuidados pessoais, estúdios de beleza, salões ou para presentear.",
+  "preco": "130,00",
+  "preco_promocional": "",
+  "quantidade_minima": "",
+  "fotos": [
+    {
+      "imagem": "/img/342233c3-91fc-4755-a3d9-f27d3fc65432.jpg",
+      "descricao": "Espelho de mão redondo rosa"
+    },
+    {
+      "imagem": "/img/89b6acdd-1ab2-49e7-ac4c-57e4467816b2.jpg",
+      "descricao": "Espelho de mão redondo branco"
+    },
+    {
+      "imagem": "/img/643640a1-7c77-4d5d-9fb8-bd62896bd355.jpg",
+      "descricao": "Espelho de mão redondo branco"
+    },
+    {
+      "imagem": "/img/ed944332-1af6-4959-b5ce-24fb6af2a9d1.jpg",
+      "descricao": "Espelho de mão redondo frente"
+    }
+  ],
+  "visivel": true,
+  "ordem": 2
+}

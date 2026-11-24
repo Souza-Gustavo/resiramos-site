@@ -1,0 +1,21 @@
+{
+  "titulo": "Xadrez",
+  "categoria": "jogos",
+  "tamanho": "27cm x 27cm x 1cm",
+  "descricao": "Tabuleiro de xadrez artesanal em resina com acabamento liso e brilhante, ideal para jogar e compor a decoração do ambiente. Une resistência a riscos e impactos leves com visual exclusivo.",
+  "preco": "399,90",
+  "preco_promocional": "",
+  "quantidade_minima": "",
+  "fotos": [
+    {
+      "imagem": "/img/WhatsApp Image 2026-11-23 at 21.26.09.jpeg",
+      "descricao": "Tabuleiro de xadrez de resina"
+    },
+    {
+      "imagem": "/img/WhatsApp Image 2026-11-23 at 21.26.10.jpeg",
+      "descricao": "Tabuleiro de xadrez de resina"
+    }
+  ],
+  "visivel": true,
+  "ordem": 1
+}

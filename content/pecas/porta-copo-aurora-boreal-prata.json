@@ -1,0 +1,24 @@
+{
+  "titulo": "Porta Copo Aurora Boreal Prata",
+  "categoria": "decoracao",
+  "tamanho": "Tam. 8,5 x 8,5 cm",
+  "descricao": "Inspirado na aurora boreal, com tons mais frios que deixam a peça discreta, mas marcante. Com acabamento em prata nas laterais, a peça combina com o centro e valoriza ainda mais seu visual.",
+  "preco": "35,00",
+  "preco_promocional": "",
+  "fotos": [
+    {
+      "imagem": "/img/Porta copo Aurora Boreal prata 01.jpeg",
+      "descricao": "Porta Copo Aurora Boreal Prata 8,5cm - Resi Ramos"
+    },
+    {
+      "imagem": "/img/Porta copo Aurora Boreal prata 02.jpeg",
+      "descricao": "Porta Copo Aurora Boreal Prata - foto 2"
+    },
+    {
+      "imagem": "/img/Porta copo Aurora Boreal prata 03.jpeg",
+      "descricao": "Porta Copo Aurora Boreal Prata - foto 3"
+    }
+  ],
+  "visivel": true,
+  "ordem": 9
+}

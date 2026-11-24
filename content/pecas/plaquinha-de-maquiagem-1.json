@@ -1,0 +1,17 @@
+{
+  "titulo": "Plaquinha de Maquiagem",
+  "categoria": "atacado",
+  "tamanho": "12cm x 7,5cm",
+  "descricao": "Leve mais praticidade, higiene e estilo para sua bancada ou atendimento. Nossa plaquinha em resina é feita à mão, ideal para misturar bases, corretivos, batons e pigmentos cremosos até alcançar o tom exato da pele, além de funcionar como base para fotos de maquiagem e unhas.",
+  "preco": "60,00",
+  "preco_promocional": "",
+  "quantidade_minima": "A partir de 15 unidades R$ 45,00",
+  "fotos": [
+    {
+      "imagem": "/img/e52e699e-ce2c-4b83-822b-591180dab86f.jpg",
+      "descricao": ""
+    }
+  ],
+  "visivel": true,
+  "ordem": 6
+}
