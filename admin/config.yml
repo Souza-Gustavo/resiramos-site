@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: Souza-Gustavo/resiramos-site
-  branch: versao-2.0
+  branch: main
 
 media_folder: "img"
 public_folder: "/img"
