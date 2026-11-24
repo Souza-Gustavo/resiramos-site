@@ -7,6 +7,16 @@ media_folder: "img"
 public_folder: "/img"
 locale: "pt"
 
+media_libraries:
+  default:
+    config:
+      transformations:
+        raster_image:
+          format: webp
+          quality: 85
+          width: 1000
+          height: 1400
+
 collections:
   - name: "pecas"
     label: "Peças"
