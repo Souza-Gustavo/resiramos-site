@@ -1,0 +1,17 @@
+{
+  "titulo": "Chaveiro losango",
+  "categoria": "atacado",
+  "tamanho": "9,5cm x 4,5cm",
+  "descricao": "Chaveiro artesanal em formato losango feito em resina epóxi transparente, resistente e com brilho intenso. Ideal para organizar chaves ou decorar bolsas e mochilas. Acompanha argola e corrente metálica.",
+  "preco": "25,00",
+  "preco_promocional": "",
+  "quantidade_minima": "A partir de 15 unidades R$ 15,00",
+  "fotos": [
+    {
+      "imagem": "/img/b9b3bd14-1eb5-4751-a7c1-36eceea9e569.jpg",
+      "descricao": "Chaveiro losango azul"
+    }
+  ],
+  "visivel": true,
+  "ordem": 5
+}
